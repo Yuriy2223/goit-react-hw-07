@@ -10,8 +10,8 @@ const validationSchema = Yup.object({
     .max(50, "Maximum 50 symbols")
     .required("Required field"),
   number: Yup.string()
-    .min(3, "Minimum 3 symbols")
-    .max(12, "Maximum 10 symbols")
+    .min(3, "Minimum 3 digits")
+    .max(12, "Maximum 10 digits")
     .required("Required field"),
 });
 
