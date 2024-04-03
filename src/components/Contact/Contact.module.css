@@ -24,8 +24,8 @@
 }
 
 .deleteBtn {
-  background-color: transparent;
-  color: blue;
+  background-color: blue;
+  color: yellow;
   border: 3px solid blue;
   border-radius: 7px;
   padding: 5px 10px;
