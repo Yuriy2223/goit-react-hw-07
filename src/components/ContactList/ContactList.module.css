@@ -1,0 +1,28 @@
+.list {
+  min-height: 346px;
+  margin: 0 auto;
+  width: 90%;
+  border: 3px solid blue;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+
+  /* transition: all 0.3s ease-in-out; */
+}
+
+/* .list:hover {
+  box-shadow: 0 0 20px blue;
+} */
+
+.title {
+  color: blue;
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  width: 90%;
+  margin: 0 auto;
+  border: 3px solid blue;
+  border-bottom: none;
+}
