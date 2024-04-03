@@ -15,19 +15,6 @@ const validationSchema = Yup.object({
     .required("Required field"),
 });
 
-// const formatPhoneNumber = (value) => {
-//   const number = value.replace(/[^\d]/g, "");
-//   let phone = "";
-//   if (number.length < 4) {
-//     phone = number;
-//   } else if (number.length < 10) {
-//     phone = `${number.slice(0, 3)}-${number.slice(3)}`;
-//   } else {
-//     phone = `${number.slice(0, 3)}-${number.slice(3, 5)}-${number.slice(5, 7)}`;
-//   }
-//   return phone;
-// };
-
 const formatPhoneNumber = (value) => {
   if (value.replace(/[^\d]/g, "").length > 10) {
     return value.slice(0, -1);
